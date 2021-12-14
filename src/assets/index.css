@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    background: wheat;
+}
+/* @font-face {
+    font-family: 'Manrope';
+    src: url('/fonts/Manrope/Manrope-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: auto;
+} */
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+.link {
+    cursor: pointer;
+    color: purple;
+    list-style-type: none;
+}
+.create-todo{
+    align-self: center;
+}
+.logout {
+    cursor: pointer;
+}
+.link-btn{
+    cursor: pointer;
+    color: purple;
+}
+.auth-form .action-link{
+    margin-top: 16px;
+}
+.create-todo input{
+    border-radius: 9px;
+    background: wheat;
+    color: #2c2c2c;
+}
+.nav-link {
+    display: flex;
+     flex-flow: row nowrap; 
+     justify-content: space-between;
+
+}
+.mes {
+    position: absolute;
+    border-radius: 15px 100px 15px 100px;
+  }
+  .First_Name {
+     border-radius: 15px 100px 15px 100px;
+    text-align: center;
+    text-shadow: 3px 3px 1px #000000;
+  } 
+ .info {
+  box-shadow: 3px 3px 3px #fcfcfc;
+  margin: auto;
+  background-color: rgb(91, 164, 173);
+  font-family: "Copperplate Gothic";
+  width: 100%;
+  height: 10%;
+  border-radius: 15px 100px 15px 100px;
+  border: 5px solid #000000;
+}
+.link-wrapper{
+    /* margin: 0 auto; */
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    /* max-width: 700 px;
+   
+    display: flex;
+    flex-flow: row nowrap;
+    
+    align-items: center; */
+}
+
+.todo-item .actions{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 16px;
+}
+
+.todo-item title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.checkbox{
+    border-radius: 12 px;
+}
+
+.todo-item .checkbox{
+    cursor: pointer;
+    width: 26px;
+    height: 26px;
+    border: 2 px solid #abc365;
+    border-radius: 12 px;
+}
+.form-field input{
+    border: 1px solid grey;
+    padding: 12px 24px;
+
+}
+#email{
+    border-radius: 9px;
+}
+#password{
+    border-radius: 9px;
+}
+.submit-btn{
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 15px 15px;
+    background: #2c2c2c;
+    color: wheat;
+    font-size: 15px;
+    border-radius: 9px;
+    cursor: pointer;
+
+}
+
+.base-page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.todo-item .actions{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 16px;
+}
+.todo-item .title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.todo-item .checkbox{
+    cursor: pointer;
+    background: #2c2c2c;
+    color: wheat;
+    width: 26px;
+    height: 26px;
+    border-radius: 12px;
+}
+.todo-item.done{
+    opacity: 0.5;
+}
+.todo-item.done .title{
+    text-decoration: line-through;
+}
+.todo-item button {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    background: wheat;
+    color: #2c2c2c;
+    border-radius: 4px;
+    margin: auto;
+    font-size: 14px;
+    
+}
+.create-todo button{
+    cursor: pointer;
+    background: #2c2c2c;
+    color: wheat;
+    border-radius: 9px;
+    margin-left: 10px;
+    
+}
